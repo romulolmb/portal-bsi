@@ -7,10 +7,16 @@ return [
         'bsi' => [
             'path' => 'bsi/{filename}.html'
         ]
+        ,'disciplinas' => [
+            'path' => 'disciplinas/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {
-    	return $page->baseUrl . '/images/' . $imagem;
+        return $page->baseUrl . '/images/' . $imagem;
+    },
+    'adiciona_arquivo' => function($page, $file) {
+        return $page->baseUrl . '/files/' . $file;
     },
     'icone_ativo' =>function($page, $secao) {
     	return str_contains($page->getPath(), $secao) ? 'iconeAtivo' : 'icone';

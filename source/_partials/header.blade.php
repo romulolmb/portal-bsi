@@ -3,7 +3,7 @@
     <nav>
         <a href="{{ $page->baseUrl }}/bsi"><div class="{{ $page->icone_ativo('bsi') }} grande bsi"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iBSI.png') }}" alt="bsi"><br>BACHARELADO&nbsp;&nbsp;EM<br><span class="subtitleGrande">SISTEMAS&nbsp;DE<br>INFORMA&Ccedil;&Atilde;O</span></div></a>
         <div style="float:left;">
-            <a href="#"><div class="icone normal disciplinas"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iDisciplinas.png') }}" alt="disciplinas"><br>DISCIPLINAS</p></div></a>
+            <a href="{{ $page->baseUrl }}/disciplinas"><div class="{{ $page->icone_ativo('disciplinas') }} normal disciplinas"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iDisciplinas.png') }}" alt="disciplinas"><br>DISCIPLINAS</p></div></a>
             <a href="#"><div class= "icone largo alunos"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iAlunos.png') }}" alt="alunos"><br>ALUNOS</p></div></a>
             <a href="#"><div class= "icone normal tcc"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iTCC.png') }}" alt="Trabalho de Conclusão de Curso"><br>TCC</p></div></a>
             <br style="clear: both;">
