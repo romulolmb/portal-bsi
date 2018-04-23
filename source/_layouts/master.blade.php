@@ -16,7 +16,7 @@
     {{-- <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>     --}}
         @include('_partials.header')
         @yield('body')
-        {{-- <br style="clear: both"> --}}
+        <br style="clear: both">
     	@include('_partials.footer')
     {{-- <script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
     <script src="/js/bootstrap.min.js" type="text/javascript"></script> --}}

@@ -1,4 +1,4 @@
-/*header {
+header {
 	height: 260px;
 	text-align: left;
 	margin: 0px 0px 20px 0px;
@@ -23,7 +23,7 @@ body {
 .table-borderless > thead > tr > td,
 .table-borderless > thead > tr > th {
     border: none;
-}*/
+}
 
 /* Estilo página BSI */
 
@@ -41,10 +41,10 @@ body {
 	color: #404040;
 	font-family: 'Ubuntu', Verdana, sans-serif;
 	font-size: 10pt;
-	overflow: hidden; 
+	overflow: auto; 
 	text-align: center;
 	/*position: fixed;*/
-	width: 100% !important;
+	/*width: 100% !important;*/
 }
 
 h1, h2, h3 {
@@ -83,7 +83,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-.containerr {
+.container {
 	text-align: left;
 	margin: 0 auto;
 	width: 980px;
