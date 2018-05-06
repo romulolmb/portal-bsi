@@ -6,7 +6,7 @@ header {
 }
 
 header nav{
-	width: 980px;
+	width: auto;
 	height: 260px;
 	float: left;
 	margin-top: 12px;
@@ -100,7 +100,7 @@ header {
 }
 
 header nav{
-	width: 980px;
+	width: auto;
 	height: 260px;
 	float: left;
 	margin-top: 12px;
@@ -246,11 +246,10 @@ aside li.submenu2 a{
 
 /* Conteúdo principal */
 article{
-    	display:inline; /*Bug da margem dupla para floats no IE*/ 
+    display:inline; /*Bug da margem dupla para floats no IE*/ 
 	float:right;
-    	width:720px;
-    	text-align: justify;
-    	padding-right: 10px;
+    width:720px;
+    text-align: justify;
 }
 
 
@@ -278,6 +277,10 @@ article dt {
 article dd {
 	margin-left: 25px;
 	margin-bottom: 1.5em;
+}
+
+iframe {
+	width: 560px;
 }
 
 /* EIA */
@@ -378,4 +381,37 @@ footer {
 
 #RodapeLocalizacao a{
 	color: #c0c0c0;
+}
+
+@media only screen and (max-width: 959px) {
+	.container {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/*.container {
+		display: none;
+	}*/
+	.container aside, .container nav {
+		display: none;
+	}
+	article {
+		width: 95%;
+		margin: 0 auto;
+		/*padding-right: 0px;*/
+	}
+
+	iframe {
+		width: 95%;
+	}
+	img {
+		max-width: 100%
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	article {
+		padding-right: 10px;
+	}
 }
