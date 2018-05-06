@@ -10,6 +10,9 @@ return [
         ,'disciplinas' => [
             'path' => 'disciplinas/{filename}.html'
         ]
+        ,'alunos' => [
+            'path' => 'alunos/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {
