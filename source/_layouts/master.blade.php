@@ -6,11 +6,12 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bsi.css">
+        @yield('styles')
         {{-- <link rel="stylesheet" href="/css/bootstrap.min.css"> --}}
         <title>BSI UNIRIO</title> 
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-		<meta name="description" content="BSI UNIRIO: Bacharelado em Sistemas de Informa&ccedil;&atilde;o"> 
-		<link href='http://fonts.googleapis.com/css?family=Dosis|Ubuntu' rel='stylesheet' type='text/css'>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+        <meta name="description" content="BSI UNIRIO: Bacharelado em Sistemas de Informa&ccedil;&atilde;o"> 
+        <link href='http://fonts.googleapis.com/css?family=Dosis|Ubuntu' rel='stylesheet' type='text/css'>
     </head>
     <body>
     {{-- <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>     --}}
@@ -18,7 +19,7 @@
         @yield('body')
         <br style="clear: both">
     	@include('_partials.footer')
-    {{-- <script src="/js/jquery-3.3.1.min.js" type="text/javascript"></script>
-    <script src="/js/bootstrap.min.js" type="text/javascript"></script> --}}
+        {{-- Para adicionar scripts --}}
+        @yield('scripts')
     </body>
 </html>

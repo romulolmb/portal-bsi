@@ -21,6 +21,9 @@ return [
     'adiciona_arquivo' => function($page, $file) {
         return $page->baseUrl . '/files/' . $file;
     },
+    'adiciona_js' => function($page, $file) {
+        return $page->baseUrl . '/js/' . $file;
+    },
     'icone_ativo' =>function($page, $secao) {
     	return str_contains($page->getPath(), $secao) ? 'iconeAtivo' : 'icone';
     },
