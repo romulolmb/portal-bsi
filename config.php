@@ -13,6 +13,9 @@ return [
         ,'alunos' => [
             'path' => 'alunos/{filename}.html'
         ]
+        ,'tcc' => [
+            'path' => 'tcc/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {
