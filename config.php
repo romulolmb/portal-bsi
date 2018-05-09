@@ -16,6 +16,9 @@ return [
         ,'tcc' => [
             'path' => 'tcc/{filename}.html'
         ]
+        ,'noticias' => [
+            'path' => 'noticias/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {

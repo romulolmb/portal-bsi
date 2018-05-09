@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.master', ['page_title' => 'Disciplinas BSI'])
 
 @section('body')
 {{-- <h1>Hello world!</h1>

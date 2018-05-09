@@ -12,7 +12,7 @@
             <a href="#"><div class= "icone normal secretaria"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iSecretaria.png') }}" alt="secretaria"><br>SECRETARIA</p></div></a>
             <a href="#"><div class= "icone normal institucional"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iInstitucional.png') }}" alt="institucional"><br>INSTITUCIONAL<br>EIA-CCET-UNIRIO</p></div></a> 
         </div>  
-        <a href="#"><div class="noticias icone grande semMargem"><p class="subtitle subtitleGrande"><img src="{{ $page->adiciona_imagem('iNoticias.png') }}" alt="notícias"><br>NOT&Iacute;CIAS</p></div></a>
+        <a href="{{ $page->baseUrl }}/noticias"><div class="noticias {{ $page->icone_ativo('noticias') }} grande semMargem"><p class="subtitle subtitleGrande"><img src="{{ $page->adiciona_imagem('iNoticias.png') }}" alt="notícias"><br>NOT&Iacute;CIAS</p></div></a>
     </nav> 
     </div> 
 </header>

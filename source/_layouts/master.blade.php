@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="/css/bsi.css">
         @yield('styles')
         {{-- <link rel="stylesheet" href="/css/bootstrap.min.css"> --}}
-        <title>BSI UNIRIO</title> 
+        <title>{{ $page_title }}</title> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
         <meta name="description" content="BSI UNIRIO: Bacharelado em Sistemas de Informa&ccedil;&atilde;o"> 
         <link href='http://fonts.googleapis.com/css?family=Dosis|Ubuntu' rel='stylesheet' type='text/css'>
