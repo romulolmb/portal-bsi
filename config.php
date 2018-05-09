@@ -19,6 +19,9 @@ return [
         ,'noticias' => [
             'path' => 'noticias/{filename}.html'
         ]
+        ,'professores' => [
+            'path' => 'professores/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {
