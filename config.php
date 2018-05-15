@@ -1,5 +1,5 @@
 <?php
-
+//Teste de Commit e Push no VSC
 return [
     'baseUrl' => '',
     'production' => false,
