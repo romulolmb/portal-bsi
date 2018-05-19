@@ -10,7 +10,7 @@
             <a href="{{ $page->baseUrl }}/professores"><div class= "{{ $page->icone_ativo('professores') }} normal professores"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iProfessores.png') }}" alt="Professores"><br>PROFESSORES</p></div></a>
             <a href="{{ $page->baseUrl }}/oportunidades"><div class= "{{ $page->icone_ativo('oportunidades') }} normal oportunidades"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iOportunidades.png') }}" alt="oportunidades"><br>OPORTUNIDADES</p></div></a>
             <a href="{{ $page->baseUrl }}/secretaria"><div class= "{{ $page->icone_ativo('secretaria') }} normal secretaria"><p class="subtitle"><img class="icon" src="{{ $page->adiciona_imagem('iSecretaria.png') }}" alt="secretaria"><br>SECRETARIA</p></div></a>
-            <a href="#"><div class= "icone normal institucional"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iInstitucional.png') }}" alt="institucional"><br>INSTITUCIONAL<br>EIA-CCET-UNIRIO</p></div></a> 
+            <a href="{{ $page->baseUrl }}/institucional"><div class= "{{ $page->icone_ativo('institucional') }} normal institucional"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iInstitucional.png') }}" alt="institucional"><br>INSTITUCIONAL<br>EIA-CCET-UNIRIO</p></div></a> 
         </div>  
         <a href="{{ $page->baseUrl }}/noticias"><div class="noticias {{ $page->icone_ativo('noticias') }} grande semMargem"><p class="subtitle subtitleGrande"><img src="{{ $page->adiciona_imagem('iNoticias.png') }}" alt="notícias"><br>NOT&Iacute;CIAS</p></div></a>
     </nav> 

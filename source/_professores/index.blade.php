@@ -1,6 +1,5 @@
 @extends('_layouts.professores.master')
 @section('styles')
-{{-- <link href="../foto.css" rel="stylesheet" type="text/css">  --}}
 <link rel="stylesheet" href="{{ $page->baseUrl}}/css/fotos.css">
 @endsection
 @section('content')
