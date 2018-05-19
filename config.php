@@ -25,6 +25,9 @@ return [
         ,'oportunidades' => [
             'path' => 'oportunidades/{filename}.html'
         ]
+        ,'secretaria' => [
+            'path' => 'secretaria/{filename}.html'
+        ]
     ],
     'title' => 'Portal BSI',
     'adiciona_imagem' => function($page, $imagem) {
