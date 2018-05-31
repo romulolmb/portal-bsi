@@ -1,5 +1,21 @@
 {
     "require": {
-        "tightenco/jigsaw": "^1.1"
+        "tightenco/jigsaw": "^1.1",
+        "components/jquery": "^3.3",
+        "twbs/bootstrap": "^4.1"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "mkdir -p source/css/bootstrap",
+            "mkdir -p source/js/jquery",
+            "cp -R vendor/twbs/bootstrap/dist source/css/bootstrap",
+            "cp -R vendor/components/jquery source/js/jquery"
+        ],
+        "post-install-cmd": [
+            "mkdir -p source/css/bootstrap",
+            "mkdir -p source/js/jquery",
+            "cp -R vendor/twbs/bootstrap/dist source/css/bootstrap",
+            "cp -R vendor/components/jquery source/js/jquery"
+        ]
     }
 }
