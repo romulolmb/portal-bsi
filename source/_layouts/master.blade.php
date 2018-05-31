@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link href="/css/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="/js/jquery/jquery.min.js"></script>
+        <script src="/css/bootstrap/dist/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bsi.css">
         @yield('styles')
@@ -15,7 +18,9 @@
     </head>
     <body>
     {{-- <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>     --}}
-        @include('_partials.header')
+        <div class="d-none d-lg-block">
+            @include('_partials.header')
+        </div>
         @yield('body')
         <br style="clear: both">
     	@include('_partials.footer')

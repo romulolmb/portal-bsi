@@ -1,5 +1,5 @@
 <header>
-    <div class="container"> 
+    <div class="container-big"> 
     <nav>
         <a href="{{ $page->baseUrl }}/bsi"><div class="{{ $page->icone_ativo('bsi') }} grande bsi"><p class="subtitle"><img src="{{ $page->adiciona_imagem('iBSI.png') }}" alt="bsi"><br>BACHARELADO&nbsp;&nbsp;EM<br><span class="subtitleGrande">SISTEMAS&nbsp;DE<br>INFORMA&Ccedil;&Atilde;O</span></div></a>
         <div style="float:left;">

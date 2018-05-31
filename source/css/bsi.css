@@ -1,4 +1,4 @@
-header {
+/*header {
 	height: 260px;
 	text-align: left;
 	margin: 0px 0px 20px 0px;
@@ -24,7 +24,7 @@ body {
 .table-borderless > thead > tr > th {
     border: none;
 }
-
+*/
 /* Estilo página BSI */
 
 
@@ -44,7 +44,7 @@ body {
 	overflow: auto; 
 	text-align: center;
 	/*position: fixed;*/
-	/*width: 100% !important;*/
+	width: 100% !important;
 }
 
 h1, h2, h3 {
@@ -83,7 +83,7 @@ a:hover{
 	text-decoration: underline;
 }
 
-.container {
+.container-big {
 	text-align: left;
 	margin: 0 auto;
 	width: 980px;
@@ -382,6 +382,7 @@ footer {
 #RodapeLocalizacao a{
 	color: #c0c0c0;
 }
+/*
 
 @media only screen and (max-width: 959px) {
 	.container {
@@ -392,14 +393,14 @@ footer {
 @media only screen and (max-width: 768px) {
 	/*.container {
 		display: none;
-	}*/
+	}
 	.container aside, .container nav {
 		display: none;
 	}
 	article {
 		width: 95%;
 		margin: 0 auto;
-		/*padding-right: 0px;*/
+		/*padding-right: 0px;
 	}
 
 	iframe {
@@ -414,4 +415,4 @@ footer {
 	article {
 		padding-right: 10px;
 	}
-}
+} */
