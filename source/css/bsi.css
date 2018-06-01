@@ -144,6 +144,10 @@ header nav{
 	padding-bottom: 10px;
 }
 
+.linha-maior {
+	height: 120px;
+}
+
 .icone img { padding-top: 15px; border: 0;}
 .iconeAtivo img { padding-top: 15px; border: 0;}
 .bsi img { padding-top: 40px;}
