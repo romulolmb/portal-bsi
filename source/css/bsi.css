@@ -289,6 +289,10 @@ article dd {
 	margin-bottom: 1.5em;
 }
 
+article img{
+	max-width: 100%;
+}
+
 iframe {
 	width: 560px;
 }
