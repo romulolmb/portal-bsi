@@ -2,20 +2,27 @@
     "require": {
         "tightenco/jigsaw": "^1.1",
         "components/jquery": "^3.3",
-        "twbs/bootstrap": "^4.1"
+        "twbs/bootstrap": "^4.1",
+        "mervick/material-design-icons": "^2.2"
     },
     "scripts": {
         "post-update-cmd": [
             "mkdir -p source/css/bootstrap",
             "mkdir -p source/js/jquery",
+            "mkdir -p source/css/material-design-icons",
             "cp -R vendor/twbs/bootstrap/dist source/css/bootstrap",
-            "cp -R vendor/components/jquery source/js/jquery"
+            "cp -R vendor/components/jquery source/js/jquery",
+            "cp -R vendor/mervick/material-design-icons/css source/css/material-design-icons",
+            "cp -R vendor/mervick/material-design-icons/fonts source/css/material-design-icons"
         ],
         "post-install-cmd": [
             "mkdir -p source/css/bootstrap",
             "mkdir -p source/js/jquery",
+            "mkdir -p source/css/material-design-icons",
             "cp -R vendor/twbs/bootstrap/dist source/css/bootstrap",
-            "cp -R vendor/components/jquery source/js/jquery"
+            "cp -R vendor/components/jquery source/js/jquery",
+            "cp -R vendor/mervick/material-design-icons/css source/css/material-design-icons",
+            "cp -R vendor/mervick/material-design-icons/fonts source/css/material-design-icons"
         ]
     }
 }
