@@ -21,6 +21,9 @@
         <div class="d-none d-lg-block">
             @include('_partials.header')
         </div>
+        <div class="d-xs-block d-lg-none">
+            @include('_partials.header-min')
+        </div>
         @yield('body')
         <br style="clear: both">
     	@include('_partials.footer')
