@@ -1,7 +1,7 @@
 
 <aside>
 	<ul class="menu">
-		<li class="ativo professores"><a href="index.html">PROFESSORES</a></li>
+		<li class="ativo professores"><a href="/professores">PROFESSORES</a></li>
 		<li><a href="http://lattes.cnpq.br/1841338064901299" target="_blank">Adriana Alvim</a></li>
 	<!--<li><a href="http://lattes.cnpq.br/1166577932438963" target="_blank">Adriana Pimenta</a></li>-->
 		<li><a href="http://lattes.cnpq.br/5998143228852295" target="_blank">Alexandre Andreatta</a></li>

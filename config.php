@@ -45,6 +45,9 @@ return [
     'icone_ativo' =>function($page, $secao) {
     	return str_contains($page->getPath(), $secao) ? 'iconeAtivo' : 'icone';
     },
+    'nav_ativo' =>function($page, $secao) {
+    	return str_contains($page->getPath(), $secao) ? 'navAtivo' : 'nav';
+    },
     'aside_ativo' =>function($page, $pagina, $secao) {
     	if ($pagina == $secao) {
     		return 'ativo '.$secao;

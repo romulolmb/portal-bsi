@@ -8,6 +8,7 @@
         <link href="/css/material-design-icons/css/material-icons.min.css" rel="stylesheet"/>
         <script src="/js/jquery/jquery/jquery.min.js"></script>
         <script src="/css/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="/js/offcanvas.js"></script>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/css/bsi.css">
         @yield('styles')
