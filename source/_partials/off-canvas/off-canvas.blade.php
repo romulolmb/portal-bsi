@@ -4,10 +4,10 @@
         <div>MENU</div>
         <i class="mdi mdi-2x mdi-close text-white" onClick="closeNav()"></i>
     </div>
-    <ul class="menuOffcanvas">
+    <ul class="menuOffcanvas" id="menuOffcanvas">
 		<li class="{{ $page->nav_ativo('bsi') }} border-bottom b-bsi d-inline-flex align-items-center pl-2 pr-2 w-100" data-toggle="collapse" data-target="#collapseBSI" aria-expanded="false">
             <img src="{{ $page->adiciona_imagem('iBSI.png') }}" alt="bsi" class="iconePequeno">
-            <div class="titulo">BSI</div>
+            <div class="titulo">Bacharelado em <br>Sistemas de Informação</div>
             <i class="mdi mdi-2x mdi-expand-more text-white ml-auto"></i>
             <i class="mdi mdi-2x mdi-expand-less text-white ml-auto"></i>
         </li>
