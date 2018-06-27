@@ -1,4 +1,4 @@
-<header>
+<header class="d-none d-lg-block">
     <div class="container-big">
         <nav class="d-flex align-items-center justify-content-center">
             <div class="container">

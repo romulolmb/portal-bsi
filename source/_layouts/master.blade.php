@@ -20,12 +20,8 @@
     </head>
     <body>
     {{-- <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>     --}}
-        <div class="d-none d-lg-block">
-            @include('_partials.header')
-        </div>
-        <div class="d-xs-block d-lg-none">
-            @include('_partials.header-min')
-        </div>
+        @include('_partials.header')
+        @include('_partials.header-min')
         @yield('body')
         <br style="clear: both">
     	@include('_partials.footer')
